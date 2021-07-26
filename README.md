@@ -4,7 +4,7 @@
 
 
 
-1. ### _*Index.js (pasta Card):*_
+1. ###_*Index.js (pasta Card):*_
 
    ​	import { useState } from "react";
 
@@ -116,7 +116,7 @@
 
    ​    <>
 
-   ​      <h1>Minha Primeira aplicação com React</h1>
+   ​      <p>Minha Primeira aplicação com React</p>
 
    ​      <ul>
 
@@ -150,7 +150,7 @@
 
    export default App;
 
-4. ### _Index.js (pasta src):_
+4. ###_Index.js (pasta src):_
 
    ​	import React from 'react';
 
@@ -166,20 +166,14 @@
 
    );
 
-5. ### _Index.js (pasta Item):_
+5. ###_Index.js (pasta Item):_
 
-   ​	const Item = (props) => {
+   const Item = (props) => {
+    return(
+        <a href="/" className="list-group-item list-group-item-action list-group-item-dark">
+          {props.children}
+        </a>
+    )
+};
 
-   ​    return(
-
-   ​        <a href="/" className="list-group-item list-group-item-action list-group-item-dark">
-
-   ​          {props.children}
-
-   ​        </a>
-
-   ​    )
-
-   };
-
-   export default Item;
+export default Item;
