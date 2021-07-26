@@ -4,7 +4,7 @@
 
 
 
-1. ### _*Index.js (pasta Card):*_###
+1. ### _*Index.js (pasta Card):*_
 
    ​	import { useState } from "react";
 
@@ -78,7 +78,7 @@
 
    export default Card;
 
-2. ###_Index.js (pasta Button):_###
+2. ###_Index.js (pasta Button):_
 
    ​	const Button = ( {children, className, onClick} ) =>{
 
@@ -104,7 +104,7 @@
 
    export default Button; 
 
-3. ### _App.js:_###
+3. ### _App.js:_
 
    ​	import Item from './components/item';
 
@@ -150,7 +150,7 @@
 
    export default App;
 
-4. ### _Index.js (pasta src):_###
+4. ### _Index.js (pasta src):_
 
    ​	import React from 'react';
 
@@ -166,7 +166,7 @@
 
    );
 
-5. ### _Index.js (pasta Item):_###
+5. ### _Index.js (pasta Item):_
 
    ​	const Item = (props) => {
 
